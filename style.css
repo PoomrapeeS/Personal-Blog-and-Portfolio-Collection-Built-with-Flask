@@ -124,6 +124,17 @@ p{
   padding: 3% 0;
 }
 
+.card{
+  width: 18rem;
+  height: 25rem;
+  position: relative;
+}
+
+.card-img-top{
+  width: 286px;
+  height: 191px;
+}
+
 .card-title{
   font-size: 18px;
 }
@@ -131,6 +142,13 @@ p{
 .card-text{
   font-size: 16px;
 }
+
+.btn-card{
+  position: absolute;
+  bottom: 5%;
+  transform: translateX(-50%) ;
+}
+
 
 /* Footer */
 .footer-container{
